@@ -1,4 +1,4 @@
 #!/usr/bin/env groovy
 def call(){
-  sh 'npm install -g pm2'
+  sh 'sudo npm install pm2 -g'
 }
